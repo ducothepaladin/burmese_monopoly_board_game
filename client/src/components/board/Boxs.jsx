@@ -1,3 +1,6 @@
+import { renderColor } from "../../helper/renderColor";
+import { useState, useEffect } from "react";
+
 export function StartBox(props) {
   const { degree, boxData } = props.boxInfo;
 
@@ -142,13 +145,22 @@ export function CityBox(props) {
 
     const { degree, boxData } = props.boxInfo;
 
+    const [color, setColor] = useState("");
+    
+        useEffect(() => {
+            if(boxData) {
+                setColor(renderColor(boxData.group));
+            }
+        },[boxData, color])
+
     return (
         <div
           style={{
             transform: `rotate(${degree}deg)`,
           }}
-          className="flex overflow-hidden justify-center items-center flex-col"
+          className="flex overflow-visible justify-center items-center flex-col"
         >
+          <span style={{backgroundColor: color? color: "red"}}  className="absolute rounded-full left-0 bottom-[-20px] h-[10px] w-full"></span>
           <h1 className="text-[15px] font-bold text-black text-center stroke-black">{boxData.name}</h1>
           <p className="text-[12px] mb-1 text-center">{boxData.info["burmese"]}</p>
           <p className="text-[12px] w-20 text-center font-bold">{boxData.info["eng"]}</p>

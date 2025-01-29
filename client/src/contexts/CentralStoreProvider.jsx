@@ -1,4 +1,5 @@
-import { createContext, useState } from "react"
+import { createContext, useState } from "react";
+import { currencyData } from "../assets/staticData";
 
 export const CentralStore = createContext();
 
@@ -8,6 +9,9 @@ export default function CentralStoreProvider({children}) {
     const [players, setPlayers] = useState([]);
     const [ boxs, setBoxs ] = useState([]);
     const [currentPlayer, setCurrentPlayer] = useState(null);
+    const [currentBox, setCurrentBox] = useState({});
+    const [bank, setBank] = useState(currencyData);
+    
 
 
 
@@ -16,6 +20,8 @@ export default function CentralStoreProvider({children}) {
         players,setPlayers,
         boxs, setBoxs,
         currentPlayer, setCurrentPlayer,
+        currentBox, setCurrentBox,
+        bank, setBank,
     }}>
         {children}
     </CentralStore.Provider>

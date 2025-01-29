@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { boxDatas, playerStatueColor } from "../../assets/staticData";
 import { CentralStore } from "../../contexts/CentralStoreProvider";
 import { boardBoxInit } from "../../helper/boardBoxInit";

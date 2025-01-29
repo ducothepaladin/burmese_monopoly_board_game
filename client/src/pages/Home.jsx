@@ -17,7 +17,7 @@ export default function Home() {
 
     setPlayers([{
       id: playerID,
-      name: "Me",
+      name: "Player",
       current_position: 0,
       role: 0,
     }]);

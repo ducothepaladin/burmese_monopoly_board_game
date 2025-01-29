@@ -29,7 +29,6 @@ export default function Dice() {
     const nextIndex = (playerIndex + 1) % players.length;
     setPlayerIndex(nextIndex);
     setCurrentPlayer(players[nextIndex]);
-    setIsYourTurn(players[nextIndex].role !== 3);
   }
 
   function rollingAnimation() {
@@ -54,6 +53,7 @@ export default function Dice() {
 
   function playerMovement(totalDiceNum, index) {
     let step = 0;
+    setIsYourTurn(false);
     const movementInterval = setInterval(() => {
       setPlayers((prev) => playerStep(prev, index, boxs.length));
       step++;
@@ -78,7 +78,7 @@ export default function Dice() {
         playerOrder(totalDiceNum);
       }
       setIsRolling(false);
-    }, 2000);
+    }, 1000);
   };
 
   return (
@@ -105,7 +105,7 @@ export default function Dice() {
           <span className="p-3">5</span>
         </div>
       </div>
-      {isYourTurn && (
+      {isYourTurn && !isRolling && (
         <div
           onClick={() => rollingDiceHandle(false)}
           className="px-3 py-2 bg-red-700 w-full text-center text-white rounded-md select-none cursor-pointer"

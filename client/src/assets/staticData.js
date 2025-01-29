@@ -31,7 +31,8 @@ export const boxDatas = [
             eng: "COLLECT \nKS-200 SALATY AS YOU PASS GO"
         },
         price: null,
-        group: "START"
+        group: "START",
+        decription: "ကစားကွင်းတစ်ပတ်ပတ်ပြီးတိုင်း စထွက်မှတ်ကျော်လျှင် ဘဏ်မှ ၂၀၀ ကျပ် ထုတ်ယူပါ။"
     },
     {
         id: 1,
@@ -41,7 +42,8 @@ export const boxDatas = [
             eng: "KATHA KS-60"
         },
         price: 60,
-        group: "BROWN"
+        group: "BROWN",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 2,
@@ -51,7 +53,8 @@ export const boxDatas = [
             eng: "COMMUNITY CHEST"
         },
         price: null,
-        group: "CHEST"
+        group: "CHEST",
+        decription: "သင် 'ပ‌ဟေဠိ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 3,
@@ -61,7 +64,8 @@ export const boxDatas = [
             eng: "BHAMO KS-60"
         },
         price: 60,
-        group: "BROWN"
+        group: "BROWN",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 4,
@@ -71,7 +75,8 @@ export const boxDatas = [
             eng: "INCOMETEX KS-200"
         },
         price: null,
-        group: "INCOMETEX"
+        group: "INCOMETEX",
+        decription: "အမြတ်ခွန် ၂၀၀ ကျပ် ပေးဆောင်ရမည်။"
     },
     {
         id: 5,
@@ -81,7 +86,8 @@ export const boxDatas = [
             eng: "YANGON STATION KS-200"
         },
         price: 200,
-        group: "TRANSPORTATION"
+        group: "TRANSPORTATION",
+        decription: "ဆက်သွယ်ရေးစခန်း ၂ခုပိုင်သော် ၅၀ ကျပ်၊ ၃ခုပိုင်သော် ၁၀၀ ကျပ်၊ ၄ခုပိုင်သော် ၂၀၀ ကျပ်ဖြင့် အသီးသီး ကောက်ခံနိုင်သည်။"
     },
     {
         id: 6,
@@ -91,7 +97,8 @@ export const boxDatas = [
             eng: "NGAPALI KS-100"
         },
         price: 100,
-        group: "BLUE"
+        group: "BLUE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 7,
@@ -101,7 +108,8 @@ export const boxDatas = [
             eng: "CHANCE"
         },
         price: null,
-        group: "CHANCE"
+        group: "CHANCE",
+        decription: "သင် 'ကံ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 8,
@@ -111,7 +119,8 @@ export const boxDatas = [
             eng: "THANDWE KS-100"
         },
         price: 100,
-        group: "BLUE"
+        group: "BLUE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 9,
@@ -121,7 +130,8 @@ export const boxDatas = [
             eng: "SITTWE KS-120"
         },
         price: 120,
-        group: "BLUE"
+        group: "BLUE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 10,
@@ -131,7 +141,8 @@ export const boxDatas = [
             eng: "JAIL"
         },
         price: null,
-        group: "JAIL"
+        group: "JAIL",
+        decription: "ထောင်ကျစေ။ တစ်လှည့်နားပါ။ ၂၀၀ကျပ်ပေးဆောင်ပါ။"
     },
     {
         id: 11,
@@ -141,7 +152,8 @@ export const boxDatas = [
             eng: "TAUNGOO KS-140"
         },
         price: 140,
-        group: "BROWN_2"
+        group: "BROWN_2",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 12,
@@ -151,8 +163,8 @@ export const boxDatas = [
             eng: "ELECTRIC KS-150"
         },
         price: 150,
-        group: "ENERGY"
-    },
+        group: "ENERGY",
+    decription: "ဤလုပ်ငန်းတစ်ခုတည်းသာ ပိုင်ဆိုင်လျှင်ငှားရမ်းခသည် အံစာတုံးပေါ်ဖော်ပြရမှတ်၏ ၄ ဆဖြစ်သည်။ ၎င်းနှင့်အတူ မျိုးတူလုပ်ငန်းတစ်ခုအား လည်းကောင်းပူးတွဲပိုင်ဆိုင်ပါကငှားရမ်းခသည် အံစာတုံးပေါ်ဖော်ပြရမှတ်၏ ၈ဆဖြစ်သည်။"    },
     {
         id: 13,
         name: "ပျဉ်းမနား",
@@ -161,7 +173,8 @@ export const boxDatas = [
             eng: "PYINMANA KS-140"
         },
         price: 140,
-        group: "BROWN_2"
+        group: "BROWN_2",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 14,
@@ -171,7 +184,8 @@ export const boxDatas = [
             eng: "YAMETHIN KS-160"
         },
         price: 160,
-        group: "BROWN_2"
+        group: "BROWN_2",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 15,
@@ -181,7 +195,8 @@ export const boxDatas = [
             eng: "IRRAWADDY KS-200"
         },
         price: 200,
-        group: "TRANSPORTATION"
+        group: "TRANSPORTATION",
+        decription: "ဆက်သွယ်ရေးစခန်း ၂ခုပိုင်သော် ၅၀ ကျပ်၊ ၃ခုပိုင်သော် ၁၀၀ ကျပ်၊ ၄ခုပိုင်သော် ၂၀၀ ကျပ်ဖြင့် အသီးသီး ကောက်ခံနိုင်သည်။"
     },
     {
         id: 16,
@@ -191,7 +206,8 @@ export const boxDatas = [
             eng: "MAWLAMYINE KS-180"
         },
         price: 180,
-        group: "ORANGE"
+        group: "ORANGE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 17,
@@ -201,7 +217,8 @@ export const boxDatas = [
             eng: "COMMUNITY CHEST"
         },
         price: null,
-        group: "CHEST"
+        group: "CHEST",
+        decription: "သင် 'ပ‌ဟေဠိ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 18,
@@ -211,7 +228,8 @@ export const boxDatas = [
             eng: "THATON KS-180"
         },
         price: 180,
-        group: "ORANGE"
+        group: "ORANGE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 19,
@@ -221,7 +239,8 @@ export const boxDatas = [
             eng: "KYAIKTIYO KS-200"
         },
         price: 200,
-        group: "ORANGE"
+        group: "ORANGE",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 20,
@@ -231,7 +250,8 @@ export const boxDatas = [
             eng: "FREE-GUEST HOUSE"
         },
         price: null,
-        group: "GUEST_HOUSE"
+        group: "GUEST_HOUSE",
+        decription: "တည်းခိုအိမ်တွင် တစ်လှည့်နားနိုင်သည်။ ဒဏ်ကြေးပေးဆောင်ရန်မလိုပါ။"
     },
     {
         id: 21,
@@ -241,7 +261,8 @@ export const boxDatas = [
             eng: "TAUNGGYI KS-220"
         },
         price: 220,
-        group: "PINK"
+        group: "PINK",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 22,
@@ -251,7 +272,8 @@ export const boxDatas = [
             eng: "CHANCE"
         },
         price: null,
-        group: "CHANCE"
+        group: "CHANCE",
+        decription: "သင် 'ကံ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 23,
@@ -261,7 +283,8 @@ export const boxDatas = [
             eng: "KALAW KS-220"
         },
         price: 220,
-        group: "PINK"
+        group: "PINK",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 24,
@@ -271,7 +294,8 @@ export const boxDatas = [
             eng: "MAYMYO KS-240"
         },
         price: 240,
-        group: "PINK"
+        group: "PINK",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 25,
@@ -281,7 +305,8 @@ export const boxDatas = [
             eng: "HINO CAR KS-200"
         },
         price: 200,
-        group: "TRANSPORTATION"
+        group: "TRANSPORTATION",
+        decription: "ဆက်သွယ်ရေးစခန်း ၂ခုပိုင်သော် ၅၀ ကျပ်၊ ၃ခုပိုင်သော် ၁၀၀ ကျပ်၊ ၄ခုပိုင်သော် ၂၀၀ ကျပ်ဖြင့် အသီးသီး ကောက်ခံနိုင်သည်။"
     },
     {
         id: 26,
@@ -291,7 +316,8 @@ export const boxDatas = [
             eng: "PAKOKKU KS-260"
         },
         price: 260,
-        group: "YELLOW"
+        group: "YELLOW",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 27,
@@ -301,7 +327,8 @@ export const boxDatas = [
             eng: "MYINGYAN KS-260"
         },
         price: 260,
-        group: "YELLOW"
+        group: "YELLOW",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 28,
@@ -311,7 +338,8 @@ export const boxDatas = [
             eng: "GYOPHYU KS-150"
         },
         price: 150,
-        group: "ENERGY"
+        group: "ENERGY",
+        decription: "ဤလုပ်ငန်းတစ်ခုတည်းသာ ပိုင်ဆိုင်လျှင်ငှားရမ်းခသည် အံစာတုံးပေါ်ဖော်ပြရမှတ်၏ ၄ ဆဖြစ်သည်။ ၎င်းနှင့်အတူ မျိုးတူလုပ်ငန်းတစ်ခုအား လည်းကောင်းပူးတွဲပိုင်ဆိုင်ပါကငှားရမ်းခသည် အံစာတုံးပေါ်ဖော်ပြရမှတ်၏ ၈ဆဖြစ်သည်။"
     },
     {
         id: 29,
@@ -321,7 +349,8 @@ export const boxDatas = [
             eng: "MEIKTILA KS-280"
         },
         price: 280,
-        group: "YELLOW"
+        group: "YELLOW",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: "30",
@@ -331,7 +360,8 @@ export const boxDatas = [
             eng: "GO TO JAIL"
         },
         price: null,
-        group: "JAIL"
+        group: "JAIL",
+        decription: "ထောင်သို့တိုက်ရိုက်သွားပါ။"
     },
     {
         id: 31,
@@ -342,6 +372,7 @@ export const boxDatas = [
         },
         price: 300,
         group: "GREEN",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 32,
@@ -352,6 +383,7 @@ export const boxDatas = [
         },
         price: 300,
         group: "GREEN",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 33,
@@ -361,7 +393,8 @@ export const boxDatas = [
             eng: "COMMUNITY CHEST"
         },
         price: null,
-        group: "CHEST"
+        group: "CHEST",
+        decription: "သင် 'ပ‌ဟေဠိ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 34,
@@ -372,6 +405,7 @@ export const boxDatas = [
         },
         price: 320,
         group: "GREEN",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 35,
@@ -381,7 +415,8 @@ export const boxDatas = [
             eng: "AIRPORT KS-200"
         },
         price: 200,
-        group: "TRANSPORTATION"
+        group: "TRANSPORTATION",
+        decription: "ဆက်သွယ်ရေးစခန်း ၂ခုပိုင်သော် ၅၀ ကျပ်၊ ၃ခုပိုင်သော် ၁၀၀ ကျပ်၊ ၄ခုပိုင်သော် ၂၀၀ ကျပ်ဖြင့် အသီးသီး ကောက်ခံနိုင်သည်။"
     },
     {
         id: 36,
@@ -391,7 +426,8 @@ export const boxDatas = [
             eng: "CHANCE"
         },
         price: null,
-        group: "CHANCE"
+        group: "CHANCE",
+        decription: "သင် 'ကံ' ကတ်ပြားအား တစ်ကြိမ်နှိုက်ခွင့်ရှိသည်။"
     },
     {
         id: 37,
@@ -402,6 +438,7 @@ export const boxDatas = [
         },
         price: 350,
         group: "GREEN_2",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
     },
     {
         id: 38,
@@ -411,7 +448,8 @@ export const boxDatas = [
             eng: "INCOMETEX KS-200"
         },
         price: null,
-        group: "INCOMETEX"
+        group: "INCOMETEX",
+        decription: "အမြတ်ခွန် ၂၀၀ ကျပ် ပေးဆောင်ရမည်။"
     },
     {
         id: 39,
@@ -422,6 +460,52 @@ export const boxDatas = [
         },
         price: 400,
         group: "GREEN_2",
+        decription: "ကစားသူတစ်ဦးသည်အရောင်တူမြေကွက် အားလုံးကို ပိုင်ဆိုင်လျှင် ၎င်းမြေကွက်အသီးသီး၏ ငှားရမ်းခကို (၂)ဆတိုးပါ။"
+    },
+
+]
+
+
+export const currencyData = [
+    {
+        name: "၁၀ ကျပ်",
+        total_count: 30,
+        price: 10,
+    },
+    {
+        name: "၁ ကျပ်",
+        total_count: 30,
+        price: 1
+    },
+    {
+        name: "၂၀ ကျပ်",
+        total_count: 10,
+        price: 20
+    },
+    {
+        name: "၁၀၀၀ ကျပ်",
+        total_count: 6,
+        price: 1000
+    },
+    {
+        name: "၁၀၀ ကျပ်",
+        total_count: 40,
+        price: 100
+    },
+    {
+        name: "၅၀၀ ကျပ်",
+        total_count: 16,
+        price: 500
+    },
+    {
+        name: "၅ ကျပ်",
+        total_count: 10,
+        price: 5
+    },
+    {
+        name: "၅၀ ကျပ်",
+        total_count: 10,
+        price: 10
     },
 
 ]
